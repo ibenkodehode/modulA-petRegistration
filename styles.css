@@ -35,7 +35,7 @@ html {
 #avatar {
   display: flex;
   align-self: flex-end; /* I dont get why this does not work, so I used padding as a backup */
-  padding: 370px 0 0 100px;
+  padding: 330px 0 0 100px;
 }
 
 .registration {
