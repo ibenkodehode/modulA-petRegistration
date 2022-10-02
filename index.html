@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Register Pet</title>
+  </head>
+  <body>
+    <div class="hero">
+      <div class="profile">
+        <div id="avatar"><img id="preview" /></div>
+      </div>
+      <div class="registration">
+        <div id="content">
+          <form>
+            <h1>Pet registration</h1>
+            <label>Pets First Name</label><br />
+            <input type="text" required="" /> <br />
+            <label for="Birthday">Birthday:</label> <br />
+            <input type="date" id="birthday" name="birthday" min="1990-01-01" />
+            <br />
+            <select
+              onchange="document.getElementById('preview').src = this.value">
+              <option selected disabled>Select a breed...</option>
+              <option value="img/lab.png">Labrador Retriever</option>
+              <option value="img/dachs.png">Dachshund</option>
+              <option value="img/rott.png">Rottweiler</option>
+              <option value="img/pug.png">Pug</option>
+              <option value="img/dalmatiner.png">Dalmatian</option>
+              <option value="img/chihuahua.png">Chihuahua</option>
+              <option value="img/beagle.png">Beagle</option>
+              <option value="img/riesen.png">Riesenschnauzer</option>
+              <option value="img/sant.png">Saint Bernard</option>
+              <option value="img/pom.png">Pomeranian</option>
+              <option value="img/corgi.png">Welsh Corgi</option>
+              <option value="img/shi.png">Shih Tzu</option>
+              <option value="img/akita.png">Akita Inu</option>
+              <option value="img/husky.png">Siberian Husky</option>
+              <option value="img/dober.png">Doberman Pinscher</option>
+              <option value="Other">Other..</option>
+            </select>
+            <br />
+            <p>Gender</p>
+            <div class="radio1">
+              <input
+                class="radio__input radio__input1"
+                type="radio"
+                name="gender"
+                id="female"
+                value="female" />
+              <label class="radio__label radio__label1" for="female"
+                >Female</label
+              >
+            </div>
+            <div class="radio2">
+              <input
+                class="radio__input radio__input2"
+                type="radio"
+                name="gender"
+                id="male"
+                value="male" />
+              <label class="radio__label radio__label2" for="male">Male</label>
+            </div>
+            <br />
+            <p>Is the dog spayed or neutered?</p>
+            <div class="radio3">
+              <input
+                class="radio__input radio__input3"
+                type="radio"
+                name="spayed"
+                id="s-yes"
+                value="yes" />
+
+              <label class="radio__label radio__label3" for="s-yes">Yes</label>
+            </div>
+            <div class="radio4">
+              <input
+                class="radio__input radio__input4"
+                type="radio"
+                name="spayed"
+                id="s-no"
+                value="no" />
+              <label class="radio__label radio__label4" for="s-no">No</label>
+            </div>
+            <br />
+
+            <label for="comment">Any health concerns:</label>
+            <br />
+            <textarea rows="4" cols="50" name="comment">
+Enter text here...</textarea
+            >
+            <br />
+
+            <input type="submit" value="Send" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <footer>
+        © Untitled.
+        <a href="http://www.freepik.com"
+          >Illustrations by macrovector / Freepik</a
+        >
+        and
+        <a
+          href="https://www.freepik.com/free-vector/veterinarian-with-dog-vet-clinic-ward_27953280.htm#&position=1&from_view=undefined"
+          >Image by vector4stock</a
+        >
+      </footer>
+    </div>
+  </body>
+</html>
