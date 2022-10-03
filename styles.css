@@ -22,7 +22,7 @@ html {
   border: transparent solid;
   border-radius: 15px;
   padding: 0px;
-  margin: 60px;
+  margin: 20px;
   width: 85vw;
   height: 80vh;
   box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2), 0 10px 25px 0 rgba(0, 0, 0, 0.19);
@@ -33,7 +33,6 @@ html {
   margin: 0px;
   width: 50%;
   height: 100%;
-
   border-radius: 15px 0px 0px 15px;
   background-image: url(veterinarian.jpg);
   background-size: cover;
@@ -48,15 +47,22 @@ html {
 }
 
 .registration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
   margin: 0px;
   width: 50%;
   height: 100%;
   border-radius: 0px 15px 15px 0px;
 }
 h1 {
-  margin: 25px 0 15px 0;
+  display: flex;
+  justify-content: center;
+  margin: 1%;
   font-size: 60px;
 }
+
 #content {
   display: flex;
   align-content: center;
@@ -108,12 +114,12 @@ textarea,
 select {
   margin-bottom: 10px;
   padding: 6px 12px;
+  width: 95%;
   font-size: 15px;
   border-radius: 10px;
   border: transparent;
   font-family: "Roboto Condensed", sans-serif;
   cursor: pointer;
-  transition: background 0, 1s;
   background-color: #88beda;
   color: #f2f2e8;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 6px -1px,
