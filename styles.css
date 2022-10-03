@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;1,300&display=swap");
 
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
 html {
   height: 100%;
   color: rgb(105, 149, 180);
@@ -24,18 +29,22 @@ html {
 }
 
 .profile {
+  display: flex;
   margin: 0px;
   width: 50%;
   height: 100%;
+
   border-radius: 15px 0px 0px 15px;
   background-image: url(veterinarian.jpg);
   background-size: cover;
   box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2), 0 10px 25px 0 rgba(0, 0, 0, 0.19);
 }
+.profile img {
+  padding: 0 0 40px 30px;
+}
 #avatar {
   display: flex;
-  align-self: flex-end; /* I dont get why this does not work, so I used padding as a backup */
-  padding: 330px 0 0 100px;
+  align-self: flex-end;
 }
 
 .registration {
